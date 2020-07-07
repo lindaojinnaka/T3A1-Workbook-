@@ -453,7 +453,8 @@ let member = {};
 
 Objects can by using a constructor function and the instance variable new: 
 
-function Member (name, age, occupation) {
+function Member (name, age, occupation) 
+    {
     this.name = Juan;
     this.age = 35;
     this.occupation = doctor;
@@ -485,9 +486,9 @@ The value method allows users to return values of an object in the form of an ar
 **Example:** 
 
 let member = {
-    name = "Juan";
-    age = 35;
-    occupation = "Doctor;"
+    name = "Juan",
+    age = 35,
+    occupation = "Doctor",
 }
 
 let member = Object.value(member);
@@ -503,15 +504,15 @@ The Object.entries() method allows user to create an array that holds the key/ba
 **Example:** 
 
 let member = {
-    name = "Juan";
-    age = 35;
-    occupation = "Doctor;"
+    name = "Juan",
+    age = 35,
+    occupation = "Doctor"
 }
 
 let member = Object.entries(member);
 console.log(member)
 prints:
-[["name" = "Juan"; "age" = 35; "occupation" = "Doctor;"]]
+[["name" = "Juan", "age" = 35, "occupation" = "Doctor"]]
 
 
 
@@ -534,9 +535,9 @@ console.log(combineObj)
 
 prints: 
 {
-    name: "Juan";
+    name: "Juan",
     age: 35,
-    occupation: "Doctor;"
+    occupation: "Doctor,"
     city: "Houston", 
     state: "Texas"
 }
